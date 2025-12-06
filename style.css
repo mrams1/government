@@ -118,9 +118,11 @@ body {
     background-image: url('imerp.gif'); 
     
     /* Mengatur cara gambar ditampilkan */
-    background-size: cover;       /* Memastikan gambar menutupi seluruh area */
+    background-size: 60%;       /* Memastikan gambar menutupi seluruh area */
+    background-position: center;
     background-repeat: no-repeat; /* Mencegah gambar berulang */
-    background-attachment: fixed; /* Membuat gambar tetap saat scroll */
+    background-attachment: scroll; /* Membuat gambar tetap saat scroll */
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
