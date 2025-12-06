@@ -115,16 +115,17 @@ footer {
 }
 body {
     /* Menentukan URL ke gambar latar belakang Anda */
-    background-image: url('backgroundGrid.tsx'); 
+    background-image: url('imerp.gif'); 
     
     /* Mengatur cara gambar ditampilkan */
-    background-size: 55%;       /* Memastikan gambar menutupi seluruh area */
+    background-size: 75%;       /* Memastikan gambar menutupi seluruh area */
     background-position: center;
     background-repeat: no-repeat; /* Mencegah gambar berulang */
     background-attachment: fixed; /* Membuat gambar tetap saat scroll */
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
