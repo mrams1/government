@@ -115,14 +115,15 @@ footer {
 }
 body {
     /* Menentukan URL ke gambar latar belakang Anda */
-    background-image: url('imerp.gif'); 
+    background-image: url('GOV.png'); 
     
     /* Mengatur cara gambar ditampilkan */
-    background-size: 60%;       /* Memastikan gambar menutupi seluruh area */
+    background-size: 80%;       /* Memastikan gambar menutupi seluruh area */
     background-position: center;
     background-repeat: no-repeat; /* Mencegah gambar berulang */
-    background-attachment: scroll; /* Membuat gambar tetap saat scroll */
+    background-attachment: fixed; /* Membuat gambar tetap saat scroll */
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
