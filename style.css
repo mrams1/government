@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1117; /* Dark background, similar to Vercel/GitHub dark mode */
+    color: #c9d1d9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Lebar maksimal konten */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #58a6ff; /* Warna biru cerah */
+    font-weight: 700;
+}
+
+/* Bagian Card/Kotak Konten */
+.card {
+    background-color: #161b22; /* Warna card yang sedikit lebih terang dari background */
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    border-bottom: 2px solid #30363d;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Daftar Harga */
+.price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #30363d; /* Garis pemisah item */
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    font-weight: 400;
+    color: #c9d1d9;
+}
+
+.item-price {
+    font-weight: 700;
+    color: #4a90e2; /* Warna default untuk harga */
+    font-size: 1.1em;
+}
+
+/* Penekanan untuk harga item jadi/tinggi */
+.high-value {
+    color: #4CAF50; /* Hijau, menunjukkan nilai tinggi */
+}
+
+.note {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e242c;
+    border-left: 4px solid #f9c240; /* Warna kuning untuk info */
+    font-size: 0.9em;
+    color: #a8b3cf;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #6e7681;
+}
+.search-bar {
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background-color: #0d1117; /* Background gelap */
+    color: #c9d1d9; /* Teks putih */
+    font-size: 1em;
+    box-sizing: border-box; /* Penting agar padding tidak melebarkan input */
+    transition: border-color 0.2s;
+}
+
+#searchInput:focus {
+    border-color: #58a6ff; /* Border biru saat difokus */
+    outline: none;
+}
