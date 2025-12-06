@@ -113,3 +113,14 @@ footer {
     border-color: #58a6ff; /* Border biru saat difokus */
     outline: none;
 }
+body {
+    /* Menentukan URL ke gambar latar belakang Anda */
+    background-image: url('images/background.jpg'); 
+    
+    /* Mengatur cara gambar ditampilkan */
+    background-size: cover;       /* Memastikan gambar menutupi seluruh area */
+    background-repeat: no-repeat; /* Mencegah gambar berulang */
+    background-attachment: fixed; /* Membuat gambar tetap saat scroll */
+    
+    /* ... (Aturan CSS lainnya) ... */
+}
