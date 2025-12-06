@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #0d1117; /* Dark background, similar to Vercel/GitHub dark mode */
+    background-color: #000000; /* Dark background, similar to Vercel/GitHub dark mode */
     color: #c9d1d9;
     margin: 0;
     padding: 20px;
@@ -19,8 +19,8 @@ header {
 }
 
 header h1 {
-    color: #58a6ff; /* Warna biru cerah */
-    font-weight: 700;
+    color: #00ff04; /* Warna biru cerah */
+    font-weight: 800;
 }
 
 /* Bagian Card/Kotak Konten */
@@ -125,6 +125,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
