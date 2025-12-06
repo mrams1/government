@@ -403,9 +403,24 @@
                     *Warna hijau harga tertinggi.
             </div>
         </main>
+import React from 'react';
+import BackgroundPattern from './BackgroundPattern.tsx';
 
+const App = () => {
+  return (
+    <>
+      <BackgroundPattern />  {/* Panggil komponen di sini */}
+      <div className="content">
+        {/* Semua konten website Anda */}
+        <h1>Daftar Harga</h1>
+        {/* ... */}
+      </div>
+    </>
+  );
+};
         </footer>
     </div>
       <script src="script.js"></script> 
 </body>
+
 </html>
