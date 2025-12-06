@@ -19,8 +19,8 @@ header {
 }
 
 header h1 {
-    color: #00ff04; /* Warna biru cerah */
-    font-weight: 800;
+    color: #58a6ff; /* Warna biru cerah */
+    font-weight: 900;
 }
 
 /* Bagian Card/Kotak Konten */
@@ -115,7 +115,7 @@ footer {
 }
 body {
     /* Menentukan URL ke gambar latar belakang Anda */
-    background-image: url('GOV.png'); 
+    background-image: url('backgroundGrid.tsx'); 
     
     /* Mengatur cara gambar ditampilkan */
     background-size: 55%;       /* Memastikan gambar menutupi seluruh area */
@@ -125,6 +125,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
