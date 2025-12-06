@@ -118,13 +118,14 @@ body {
     background-image: url('GOV.png'); 
     
     /* Mengatur cara gambar ditampilkan */
-    background-size: 65%;       /* Memastikan gambar menutupi seluruh area */
+    background-size: 55%;       /* Memastikan gambar menutupi seluruh area */
     background-position: center;
     background-repeat: no-repeat; /* Mencegah gambar berulang */
     background-attachment: fixed; /* Membuat gambar tetap saat scroll */
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
