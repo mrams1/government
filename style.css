@@ -126,6 +126,25 @@ body {
     /* ... (Aturan CSS lainnya) ... */
 }
 
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0.4;
+  }
+  25% {
+    transform: translateY(-25px) translateX(10px) rotate(90deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-15px) translateX(-5px) rotate(180deg);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateY(-35px) translateX(-10px) rotate(270deg);
+    opacity: 0.6;
+  }
+}
 
 
 
