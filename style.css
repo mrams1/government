@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #000000; /* Dark background, similar to Vercel/GitHub dark mode */
+    background-color: #fd4d4d; /* Dark background, similar to Vercel/GitHub dark mode */
     color: #c9d1d9;
     margin: 0;
     padding: 20px;
@@ -26,7 +26,7 @@ header h1 {
 /* Bagian Card/Kotak Konten */
 .card {
     background-color: rgba(22, 27, 34, 0.9); /* Warna card yang sedikit lebih terang dari background */
-    border: 1px solid #30363d;
+    border: 1px solid #2e9bff;
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 30px;
@@ -68,8 +68,8 @@ header h1 {
 
 .item-price {
     font-weight: 700;
-    color: #4a90e2; /* Warna default untuk harga */
-    font-size: 1.1em;
+    color: #4CAF50; /* Warna default untuk harga */
+    font-size: 2.5em;
 }
 
 /* Penekanan untuk harga item jadi/tinggi */
@@ -82,7 +82,7 @@ header h1 {
     padding: 10px;
     background-color: #1e242c;
     border-left: 4px solid #f9c240; /* Warna kuning untuk info */
-    font-size: 0.9em;
+    font-size: 2em;
     color: #a8b3cf;
 }
 
@@ -125,3 +125,4 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
