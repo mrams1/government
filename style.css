@@ -25,7 +25,7 @@ header h1 {
 
 /* Bagian Card/Kotak Konten */
 .card {
-    background-color: rgba(22, 27, 34, 0.3); /* Warna card yang sedikit lebih terang dari background */
+    background-color: rgba(22, 27, 34, 0.7); /* Warna card yang sedikit lebih terang dari background */
     border: 1px solid #30363d;
     border-radius: 8px;
     padding: 25px;
@@ -125,6 +125,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
