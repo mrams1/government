@@ -70,13 +70,13 @@ header h1 {
 
 .item-price {
     font-weight: 700;
-    color: #4a90e2; /* Warna default untuk harga */
+    color: #4CAF50; /* Warna default untuk harga */
     font-size: 1.3em;
 }
 
 /* Penekanan untuk harga item jadi/tinggi */
 .high-value {
-    color: #4CAF50; /* Hijau, menunjukkan nilai tinggi */
+    color: #4a90e2; /* Hijau, menunjukkan nilai tinggi */
 }
 
 .note {
@@ -127,3 +127,4 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
