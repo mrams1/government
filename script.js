@@ -144,7 +144,28 @@ function renderPriceList(data) {
             const priceSpan = document.createElement('span');
             // Asumsikan data sheets Anda memiliki kolom 'Harga Jual'
             priceSpan.textContent = item['Harga Jual'] || '-'; 
+            function renderPriceList(data) {
+    container.innerHTML = ''; 
+    const groupedData = data.reduce(/* ... (Bagian pengelompokan tetap sama) ... */);
+
+    for (const category in groupedData) {
+        // ... (Pembuatan Card dan Header tetap sama) ...
+
+        groupedData[category].forEach(item => {
+            // ... (Pembuatan itemDiv, nameSpan tetap sama) ...
+
+            const priceSpan = document.createElement('span');
+            let rawPrice = item['Harga Jual'] || 0; // Ambil nilai harga
+
+            // Hapus karakter non-angka (Rp, spasi, koma) agar bisa diubah jadi angka
+            let numericPrice = parseFloat(String(rawPrice).replace(/[^0-9.]/g, ''));
             
+            // --- KODE BARU UNTUK FORMAT DOLLAR OTOMATIS ---
+            priceSpan.textContent = numericPrice.toLocaleString('en-US', {
+                style: 'currency',
+                currency: 'USD', // Menentukan mata uang Dollar AS
+                maximumFractionDigits: 0 // Menghilangkan desimal jika harga bulat
+            });
             // Beri kelas khusus jika harganya sangat tinggi (opsional)
             const priceValue = parseFloat(String(item['Harga Jual']).replace(/[^0-9,-]+/g,"").replace(",","."));
             if (priceValue > 100000) {
@@ -185,4 +206,5 @@ function filterPrices() {
         }
     });
 }
+
 
