@@ -27,7 +27,7 @@ function filterPrices() {
     });
 
 }
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR8q41TnlUZCNPZ8F040AjqaH7P49Plnd9oOQLNXlaJnladzGv13Npckh9UGQQ-krzhD6TdtqLvO0Rq/pub?gid=1459965127&single=true&output=csv'; 
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR8q41TnlUZCNPZ8F040AjqaH7P49Plnd9oOQLNXlaJnladzGv13Npckh9UGQQ-krzhD6TdtqLvO0Rq/pub?output=csv'; 
 const container = document.getElementById('priceListContainer');
 document.addEventListener('DOMContentLoaded', fetchDataAndRender);
 
@@ -185,3 +185,4 @@ function filterPrices() {
         }
     });
 }
+
