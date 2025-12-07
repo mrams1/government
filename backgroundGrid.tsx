@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { DollarSign, Coins, Gem, Diamond, Star } from "lucide-react";
-import { FloatingIcon } from "@/types";
+import React from 'react';
+import BackgroundGrid from './backgroundGrid.tsx';
 
 export default function BackgroundGrid() {
   const [floatingIcons, setFloatingIcons] = useState<FloatingIcon[]>([]);
