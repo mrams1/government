@@ -62,8 +62,8 @@ header h1 {
 }
 
 .item-name {
-    font-weight: 800;
-    color: #f44336;
+    font-weight: 1.5px;
+    color: #c9d1d9;
 }
 
 .item-price {
@@ -125,6 +125,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
