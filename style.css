@@ -20,7 +20,8 @@ header {
 
 header h1 {
     color: #58a6ff; /* Warna biru cerah */
-    font-weight: 1000;
+    font-weight: 900;
+    font-size: 5.5em;
 }
 
 /* Bagian Card/Kotak Konten */
@@ -126,6 +127,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
