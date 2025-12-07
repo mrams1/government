@@ -4,7 +4,7 @@ body {
     color: #c9d1d9;
     margin: 0;
     padding: 20px;
-    display: flex;
+    ;
     justify-content: center;
 }
 
@@ -44,14 +44,14 @@ header h1 {
 
 /* Daftar Harga */
 .price-list {
-    display: flex;
+    ;
     flex-direction: column;
     gap: 15px;
     margin-top: 15px;
 }
 
-. {
-    display: flex;
+.item {
+    ;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
@@ -63,13 +63,13 @@ header h1 {
 }
 
 .item-name {
-    font-weight: 700;
+    font-weight: 400;
     color: #c9d1d9;
     font-size: 1.5em;
 }
 
 .item-price {
-    font-weight: 700;
+    font-weight: 400;
     color: #4CAF50; 
     font-size: 1.4em;
 }
@@ -127,6 +127,7 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
 
 
