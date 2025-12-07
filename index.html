@@ -28,8 +28,21 @@
     </div>
       <script src="script.js"></script> 
 </body>
+import BackgroundPattern from './BackgroundPattern.tsx';
 
-</html>
+const App = () => {
+  return (
+    <>
+      <BackgroundPattern />  {/* Panggil komponen di sini */}
+      <div className="content">
+        {/* Semua konten website Anda */}
+        <h1>Daftar Harga</h1>
+        {/* ... */}
+      </div>
+    </>
+  );
+};
+
 
 
 
