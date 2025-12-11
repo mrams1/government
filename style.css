@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    color: #58a6ff; /* Warna biru cerah */
+    color: #ed9e3f; /* Warna biru cerah */
     font-weight: 700;
     font-size: 3.5em;
 }
@@ -127,4 +127,5 @@ body {
     
     /* ... (Aturan CSS lainnya) ... */
 }
+
 
